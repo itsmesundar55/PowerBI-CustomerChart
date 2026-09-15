@@ -1,0 +1,33 @@
+.visual {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: transparent;
+
+    svg {
+        overflow: visible;
+    }
+
+    .bar-group {
+        text {
+            fill: #333;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        .bar {
+            stroke: none;
+            transition: opacity 0.2s ease;
+        }
+
+        .label {
+            fill: #333;
+            font-weight: bold;
+            pointer-events: none;
+        }
+
+        .axis {
+            path,
+            line {
+                stroke: #ccc;
+            }
+        }
+    }
+}

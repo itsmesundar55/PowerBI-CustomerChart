@@ -2,7 +2,7 @@
   "visual": {
     "name": "CustomerSalesChart",
     "displayName": "Customer Sales Chart",
-    "guid": "customerSalesChart1234567890123456",
+    "guid": "customerSalesChart1234567890AB",
     "visualClassName": "Visual",
     "version": "1.0.0",
     "description": "A bar chart to monitor top customers by sales/revenue",
@@ -19,7 +19,5 @@
   },
   "externalJS": [],
   "style": "style/visual.less",
-  "capabilities": "capabilities.json",
-  "dependencies": [],
-  "stringResources": []
+  "capabilities": "capabilities.json"
 }

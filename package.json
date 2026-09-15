@@ -1,0 +1,20 @@
+{
+  "name": "customer-sales-chart",
+  "version": "1.0.0",
+  "description": "A Power BI custom visual for monitoring top customers by sales",
+  "scripts": {
+    "pbiviz": "pbiviz",
+    "start": "pbiviz start",
+    "package": "pbiviz package",
+    "build": "pbiviz package -o ./dist"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.0",
+    "@types/node": "^18.11.0",
+    "d3": "^7.8.0",
+    "powerbi-visuals-api": "^4.6.0",
+    "powerbi-visuals-utils-dataviewutils": "^5.0.0",
+    "typescript": "^4.9.0",
+    "powerbi-visuals-tools": "^4.0.0"
+  }
+}

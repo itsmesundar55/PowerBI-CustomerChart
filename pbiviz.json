@@ -1,0 +1,25 @@
+{
+  "visual": {
+    "name": "CustomerSalesChart",
+    "displayName": "Customer Sales Chart",
+    "guid": "customerSalesChart1234567890123456",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "A bar chart to monitor top customers by sales/revenue",
+    "supportUrl": "",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "3.8.0",
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": [],
+  "stringResources": []
+}

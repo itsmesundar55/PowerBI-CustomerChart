@@ -1,0 +1,52 @@
+{
+  "dataRoles": [
+    {
+      "name": "Category",
+      "kind": "Grouping",
+      "displayName": "Customer"
+    },
+    {
+      "name": "Measure",
+      "kind": "Measure",
+      "displayName": "Sales/Revenue"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "categorical": {
+        "categories": {
+          "for": { "in": "Category" }
+        },
+        "values": {
+          "for": { "in": "Measure" }
+        }
+      }
+    }
+  ],
+  "objects": {
+    "dataPoint": {
+      "displayName": "Data Point",
+      "properties": {
+        "barColor": {
+          "displayName": "Bar Color",
+          "type": { "fill": { "solid": { "color": true } } }
+        },
+        "topCustomers": {
+          "displayName": "Top N Customers",
+          "type": { "numeric": true },
+          "suppressFormatPainterCopy": true
+        },
+        "showLabels": {
+          "displayName": "Show Value Labels",
+          "type": { "bool": true }
+        }
+      }
+    }
+  },
+  "supportsHighlight": true,
+  "supportsMultiVisualSelection": false,
+  "tooltipDisplayOption": "ShowUpon",
+  "sorting": {
+    "implicit": {}
+  }
+}
